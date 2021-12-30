@@ -15,8 +15,8 @@ function App() {
         </p>
       </header>
       <main className="monsters">
-        <img src={monster} className="monster1" />
-        <img src={monster2} className="monster2" />
+        <img src={monster} className="monster1" alt="monster image" />
+        <img src={monster2} className="monster2" alt="monster image" />
       </main>
       <footer>
         <p>
