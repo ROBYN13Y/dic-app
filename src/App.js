@@ -1,4 +1,7 @@
 import logo from "./dic.png";
+import monster from "./monster.png";
+import monster2 from "./monster2.png";
+
 import "./App.css";
 
 function App() {
@@ -11,6 +14,10 @@ function App() {
           <span className="header-p2">If you don't know, now you know!</span>
         </p>
       </header>
+      <main className="monsters">
+        <img src={monster} className="monster1" />
+        <img src={monster2} className="monster2" />
+      </main>
       <footer>
         <p>
           <a
