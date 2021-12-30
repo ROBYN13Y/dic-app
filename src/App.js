@@ -15,7 +15,7 @@ function App() {
         <p>
           <a
             className="github-link"
-            href="/"
+            href="https://github.com/ROBYN13Y/dic-app"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -24,7 +24,7 @@ function App() {
           |{" "}
           <a
             className="ig-link"
-            href="/"
+            href="https://www.instagram.com/robyn13y/"
             target="_blank"
             rel="noopener noreferrer"
           >
