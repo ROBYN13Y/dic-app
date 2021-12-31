@@ -34,6 +34,7 @@ header {
   margin: 0;
   margin-left: 20px;
   margin-top: 30px;
+  margin-bottom: 20px;
   font-size: calc(13px + 1vmin);
 }
 
@@ -42,13 +43,14 @@ header {
 }
 
 .monsters {
-  margin-top: 50px;
+  border: 1px solid rgba(238, 232, 170, 0.493);
 }
 
 .dic-monster {
   padding-left: 5px;
   font-family: monospace;
   font-size: calc(7px + 1vmin);
+  margin: 0;
 }
 
 .monster-def {
