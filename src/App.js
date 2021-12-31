@@ -15,6 +15,12 @@ function App() {
         </p>
       </header>
       <main className="monsters">
+        <p className="dic-monster">
+          DIC-MONSTER <br />
+          <span className="monster-def">
+            A beautiful rare creature that feeds off knowledge.
+          </span>
+        </p>
         <img src={monster} className="monster1" alt="monster1" />
         <img src={monster2} className="monster2" alt="monster2" />
       </main>

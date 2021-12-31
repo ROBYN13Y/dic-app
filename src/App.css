@@ -32,8 +32,8 @@ header {
 
 .header-p {
   margin: 0;
-  margin-left: 60px;
-  margin-top: 70px;
+  margin-left: 20px;
+  margin-top: 30px;
   font-size: calc(13px + 1vmin);
 }
 
@@ -42,19 +42,26 @@ header {
 }
 
 .monsters {
-  display: flex;
+  margin-top: 50px;
+}
+
+.dic-monster {
+  padding-left: 5px;
+  font-family: monospace;
+  font-size: calc(7px + 1vmin);
+}
+
+.monster-def {
+  font-size: calc(5px + 1vmin);
 }
 
 .monster1 {
   height: 200px;
-  position: relative;
-  left: -165px;
 }
 
 .monster2 {
   height: 180px;
-  position: relative;
-  right: -800px;
+  float: right;
 }
 
 footer {
