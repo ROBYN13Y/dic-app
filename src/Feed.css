@@ -1,0 +1,23 @@
+form {
+  text-align: right;
+}
+
+input {
+  border: 1px solid rgba(255, 105, 180, 0.692);
+}
+
+.form-label {
+  margin-right: 15px;
+}
+
+.search-box {
+  margin-right: 10px;
+}
+
+.search-box:focus {
+  outline: 3px solid rgb(213, 236, 213);
+}
+
+input::placeholder {
+  text-align: center;
+}
