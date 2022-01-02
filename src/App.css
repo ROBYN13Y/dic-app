@@ -46,8 +46,14 @@ header {
   display: block;
   margin: auto;
   width: 60%;
-  border: 1px solid rgba(238, 232, 170, 0.493);
+  /* border: 1px solid rgba(238, 232, 170, 0.493); */
 }
+
+/* @media (max-width: 100px) {
+  .monsters {
+    border: white;
+  }
+} */
 
 .dic-monster {
   padding-left: 5px;

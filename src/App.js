@@ -1,3 +1,5 @@
+import React, { Component } from "react";
+
 import logo from "./dic.png";
 import monster from "./monster.png";
 import monster2 from "./monster2.png";
