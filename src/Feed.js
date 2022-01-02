@@ -1,17 +1,25 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 import "./Feed.css";
 
 export default function Feed() {
-  let [keyword, setKeyword] = useState("");
+  let [word, setWord] = useState("");
+
+  function handleWord(response) {
+    console.log(response.data[0]);
+  }
 
   function feed(event) {
     event.preventDefault();
-    alert(`SEARCHING FOR ${keyword}`);
+
+    //API docs https://dictionaryapi.dev/
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
+    axios.get(apiUrl).then(handleWord);
   }
 
   function handleKeyword(event) {
-    setKeyword(event.target.value);
+    setWord(event.target.value);
   }
 
   return (
