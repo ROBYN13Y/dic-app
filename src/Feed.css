@@ -8,10 +8,12 @@ input {
 
 .form-label {
   margin-right: 15px;
+  font-size: calc(8px + 1vmin);
 }
 
 .search-box {
   margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .search-box:focus {
