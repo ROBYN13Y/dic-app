@@ -1,12 +1,11 @@
 // import React, { Component } from "react";
 
 import logo from "./dic.png";
-import monster from "./monster.png";
-import monster2 from "./monster2.png";
 
 import "./App.css";
 
 import Feed from "./Feed";
+import Monsters from "./Monsters";
 
 function App() {
   return (
@@ -28,8 +27,7 @@ function App() {
           </p>
           <br />
           <Feed />
-          <img src={monster} className="monster1" alt="monster1" />
-          <img src={monster2} className="monster2" alt="monster2" />
+          <Monsters />
         </div>
       </main>
       <footer>

@@ -66,16 +66,6 @@ header {
   font-size: calc(5px + 1vmin);
 }
 
-.monster1 {
-  height: 200px;
-}
-
-.monster2 {
-  margin-top: 70px;
-  height: 130px;
-  float: right;
-}
-
 footer {
   font-size: calc(4px + 1vmin);
   margin-top: 300px;
