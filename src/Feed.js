@@ -10,7 +10,7 @@ export default function Feed() {
   let [knowledge, setKnowledge] = useState(null);
 
   function handleWord(response) {
-    console.log(response.data[0]);
+    // console.log(response.data[0]);
     setKnowledge(response.data[0]);
   }
 

@@ -3,7 +3,7 @@ import React from "react";
 import "./Knowledge.css";
 
 export default function Knowledge(props) {
-  console.log(props.knowledge);
+  // console.log(props.knowledge);
 
   if (props.knowledge) {
     return (
