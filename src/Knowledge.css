@@ -16,14 +16,30 @@
   margin-bottom: 0;
 }
 
+.knowledge-word::first-letter {
+  text-transform: capitalize;
+}
+
+.partOfSpeech {
+  text-transform: uppercase;
+}
+
 .word-definition {
   font-size: 15px;
   margin-top: 8px;
   margin-bottom: 0;
 }
 
+.word-definition::first-letter {
+  text-transform: capitalize;
+}
+
 .word-example {
   font-style: italic;
   font-size: 12px;
   margin-top: 0;
+}
+
+.word-example::first-letter {
+  text-transform: capitalize;
 }
