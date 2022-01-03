@@ -16,6 +16,9 @@ export default function Knowledge(props) {
           <p className="word-definition">
             {props.knowledge.meanings[0].definitions[0].definition}
           </p>
+          <p className="word-example">
+            {props.knowledge.meanings[0].definitions[0].example}
+          </p>
         </div>
       </div>
     );
