@@ -3,11 +3,15 @@ import axios from "axios";
 
 import "./Feed.css";
 
+import Knowledge from "./Knowledge";
+
 export default function Feed() {
   let [word, setWord] = useState("");
+  let [knowledge, setKnowledge] = useState(null);
 
   function handleWord(response) {
     console.log(response.data[0]);
+    setKnowledge(response.data[0]);
   }
 
   function feed(event) {
@@ -33,6 +37,7 @@ export default function Feed() {
           onChange={handleKeyword}
         />
       </form>
+      <Knowledge knowledge={knowledge} />
     </div>
   );
 }
