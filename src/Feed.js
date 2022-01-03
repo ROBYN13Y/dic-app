@@ -16,7 +16,7 @@ export default function Feed() {
 
   function feed(event) {
     event.preventDefault();
-    alert("Thank you for feeding the monsters!");
+    alert("NOM NOM - Thank you for feeding us!");
 
     //API docs https://dictionaryapi.dev/
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
