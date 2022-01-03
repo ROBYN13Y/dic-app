@@ -1,3 +1,17 @@
+/*KNOWLEDGE BOX*/
+.knowledge {
+  /* border: 1px solid rgb(213, 236, 213); */
+  margin-bottom: 20px;
+}
+
+/* TITLE */
+.knowledge-word {
+  text-transform: uppercase;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+/*DEFINITION BOX*/
 .definition {
   margin-left: auto;
   max-width: 70%;
@@ -9,15 +23,6 @@
 .partOfSpeech {
   font-size: 10px;
   margin: 0;
-}
-
-.knowledge-word {
-  font-size: 26px;
-  margin-bottom: 0;
-}
-
-.knowledge-word::first-letter {
-  text-transform: capitalize;
 }
 
 .partOfSpeech {
@@ -42,4 +47,22 @@
 
 .word-example::first-letter {
   text-transform: capitalize;
+}
+
+/*SYNONYM BOX*/
+.synonyms {
+  border: 1px solid rgba(238, 232, 170, 0.493);
+  padding: 5px;
+  max-width: 70%;
+  margin-bottom: 10px;
+}
+
+.word-synonyms {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
+
+.title {
+  margin: 0;
 }
