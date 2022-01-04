@@ -1,0 +1,10 @@
+.synonyms {
+  text-align: right;
+  font-size: 15px;
+}
+
+.word-synonyms {
+  margin: 0;
+  list-style-type: none;
+  padding: 0;
+}
