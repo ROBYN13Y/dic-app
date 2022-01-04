@@ -33,7 +33,7 @@ export default function Feed() {
         <label className="form-label">FEED THE MONSTERS </label>
         <input
           type="text"
-          placeholder=".   .   ."
+          placeholder="search a word..."
           className="search-box"
           onChange={handleKeyword}
         />
