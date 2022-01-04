@@ -22,7 +22,7 @@ function App() {
           <p className="dic-monster">
             DIC-MONSTER <br />
             <span className="monster-def">
-              A beautiful rare creature that feeds off knowledge.
+              A beautiful rare monster that feeds off knowledge!
             </span>
           </p>
           <br />
