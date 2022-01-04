@@ -2,8 +2,10 @@ import React from "react";
 
 import "./Knowledge.css";
 
+import Synonyms from "./Synonyms";
+
 export default function Knowledge(props) {
-  console.log(props.knowledge);
+  // console.log(props.knowledge);
 
   if (props.knowledge) {
     return (
@@ -21,17 +23,9 @@ export default function Knowledge(props) {
           <p className="word-example">
             {props.knowledge.meanings[0].definitions[0].example}
           </p>
-        </div>
-        <div className="synonyms">
-          <p className="title">SYNONYMS:</p>
-          <ul className="word-synonyms">
-            {props.knowledge.meanings[0].definitions[0].synonyms.map(function (
-              synonyms,
-              index
-            ) {
-              return <li key={index}>{synonyms}</li>;
-            })}
-          </ul>
+          <Synonyms
+            synonyms={props.knowledge.meanings[0].definitions[0].synonyms}
+          />
         </div>
       </div>
     );
