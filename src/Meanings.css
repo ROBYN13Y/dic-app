@@ -1,0 +1,41 @@
+.meaning {
+  margin-left: auto;
+  max-width: 70%;
+  border: 1px solid rgba(238, 232, 170, 0.493);
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.partOfSpeech {
+  font-size: 10px;
+  margin: 0;
+}
+
+.partOfSpeech {
+  text-transform: uppercase;
+}
+
+.word-definition {
+  font-size: 15px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+
+.def {
+  font-size: 12px;
+}
+
+.word-definition::first-letter {
+  text-transform: capitalize;
+}
+
+.word-example {
+  font-style: italic;
+  color: rgb(150, 185, 150);
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.word-example::first-letter {
+  text-transform: capitalize;
+}
