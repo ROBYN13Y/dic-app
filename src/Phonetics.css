@@ -11,7 +11,8 @@
 
 .link {
   text-decoration: none;
-  color: rgba(161, 79, 120, 0.692);
+  font-size: 15px;
+  color: rgba(160, 11, 85, 0.733);
 }
 
 .link:hover {
