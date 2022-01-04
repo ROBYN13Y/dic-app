@@ -9,6 +9,11 @@ input {
 .form-label {
   margin-right: 15px;
   font-size: calc(8px + 1vmin);
+  color: rgba(212, 94, 153, 0.692);
+}
+
+.form-label:hover {
+  font-size: calc(10px + 1vmin);
 }
 
 .search-box {
