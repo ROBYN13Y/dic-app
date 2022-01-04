@@ -3,10 +3,16 @@ import React from "react";
 import "./Phonetics.css";
 
 export default function Phonetics(props) {
-  return (
-    <div className="phonetic">
-      <p className="audio">{props.phonetic.audio}</p>
-      <p className="text">{props.phonetic.text}</p>
-    </div>
-  );
+  if (props.phonetic.audio) {
+    return (
+      <div className="audio">
+        <a href={props.phonetic.audio} className="link" target="_blank">
+          LISTEN
+        </a>
+        <p className="text">{props.phonetic.text}</p>
+      </div>
+    );
+  } else {
+    return null;
+  }
 }
