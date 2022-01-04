@@ -6,7 +6,7 @@ import Meanings from "./Meanings";
 import Phonetics from "./Phonetics";
 
 export default function Knowledge(props) {
-  console.log(props.knowledge);
+  // console.log(props.knowledge);
 
   if (props.knowledge) {
     return (
