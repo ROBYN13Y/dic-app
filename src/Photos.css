@@ -1,0 +1,13 @@
+.photos {
+  display: flex;
+  max-width: 60%;
+  margin-left: auto;
+}
+
+.word-photo {
+  padding: 3px;
+}
+
+.word-photo:hover {
+  padding: 0;
+}
