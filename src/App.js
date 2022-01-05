@@ -18,7 +18,7 @@ function App() {
         </p>
       </header>
       <main className="monsters">
-        <div>
+        <div className="app">
           <p className="dic-monster">
             DIC-MONSTER <br />
             <span className="monster-def">

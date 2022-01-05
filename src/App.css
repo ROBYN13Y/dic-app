@@ -1,3 +1,7 @@
+.app {
+  max-width: 60%;
+}
+
 header {
   /* background-color: #282c3481; */
   /* min-height: 12vh; */
