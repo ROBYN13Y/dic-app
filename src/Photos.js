@@ -9,7 +9,12 @@ export default function Photos(props) {
       <div className="photos">
         {props.photos.map(function (photo, index) {
           return (
-            <img src={photo.src.tiny} className="word-photo" width="100px" />
+            <img
+              src={photo.src.tiny}
+              className="word-photo"
+              width="100px"
+              alt="photo"
+            />
           );
         })}
       </div>
