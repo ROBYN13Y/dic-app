@@ -14,7 +14,7 @@ export default function Photos(props) {
                 src={photo.src.tiny}
                 className="word-photo"
                 width="100px"
-                alt="photo"
+                alt="relative"
               />
             </div>
           );
