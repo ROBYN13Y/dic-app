@@ -2,13 +2,11 @@ section {
   border: 1px solid rgba(243, 243, 186, 0.582);
   padding: 5px;
   margin-bottom: 8px;
-  max-width: 60%;
   margin-left: auto;
 }
 
 .meaning {
   margin-left: auto;
-  max-width: 70%;
   margin-bottom: 10px;
 }
 

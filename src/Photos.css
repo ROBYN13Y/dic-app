@@ -1,6 +1,5 @@
 .photos {
   display: flex;
-  max-width: 60%;
   margin-left: auto;
 }
 
